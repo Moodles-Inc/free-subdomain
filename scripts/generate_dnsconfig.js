@@ -7,7 +7,6 @@ const dnsconfigPath = path.join(__dirname, '..', 'dnsconfig.js');
 let dnsconfigContent = `
 var REG_NONE = NewRegistrar('none');
 var CLOUDFLARE = NewDnsProvider('cloudflare');
-
 `;
 
 fs.readdir(domainsPath, (err, files) => {
