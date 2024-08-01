@@ -10,7 +10,7 @@ This repository allows users to request free subdomains under `app-from.us.to` a
    ```json
    {
      "subdomain": "yoursubdomain",
-     "domain": "app-from.us.to", or "app-from.uk.to"
+     "domain": "app-from.us.to or app-from.uk.to"
      "github_username": "user",
      "description": "A brief description of the purpose of the subdomain",
      "records": {
