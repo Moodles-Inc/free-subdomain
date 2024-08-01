@@ -5,7 +5,7 @@ This repository allows users to request free subdomains under `app-from.us.to` a
 ## How to Request a Subdomain
 
 1. Fork this repository.
-2. Create a new JSON file in the `subdomains` directory. Name the file as `your-subdomain.json`.
+2. Create a new JSON file in the `subdomains` directory. Name the file as `your-subdomain.app-from.us.to.json` or `your-subdomain.app-from.uk.to.json`.
 3. Use the following format for the JSON file:
    ```json
    {
