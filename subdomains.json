@@ -1,0 +1,26 @@
+[
+    {
+        "subdomain": "example1",
+        "domain": "app-from.us.to",
+        "records": {
+            "A": ["1.0.0.1"],
+            "AAAA": ["2000:db8::1"],
+            "CNAME": ["example.com"],
+            "MX": ["mail1.example.com"],
+            "TXT": ["v=spf1 include:_spf.example.com ~all"]
+        },
+        "proxied": true
+    },
+    {
+        "subdomain": "example2",
+        "domain": "app-from.uk.to",
+        "records": {
+            "A": ["1.0.0.2"],
+            "AAAA": ["2000:db8::2"],
+            "CNAME": ["example.net"],
+            "MX": ["mail2.example.com"],
+            "TXT": ["v=spf1 include:_spf.example.net ~all"]
+        },
+        "proxied": true
+    }
+]
