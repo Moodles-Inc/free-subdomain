@@ -31,7 +31,7 @@ jobs:
       - name: Create credentials file
         run: |
           echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"${{ secrets.CLOUDFLARE_API_TOKEN }}","accountid":"${{ secrets.CLOUDFLARE_ACCOUNT_ID }}"}}' > ./creds.json
-      
+          
       - name: Generate dnsconfig.js
         run: |
           node ./scripts/generate_dnsconfig.js
@@ -39,7 +39,7 @@ jobs:
       - name: Run verification from DNSControl
         run: |
           dnscontrol check
-      
+          
       - name: Push records to DNSControl
         run: |
           dnscontrol push
