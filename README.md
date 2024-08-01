@@ -10,19 +10,18 @@ This repository allows users to request free subdomains under `app-from.us.to` a
    ```json
    {
      "subdomain": "yoursubdomain",
-     "domain": "app-from.us.to or app-from.uk.to"
+     "domain": "app-from.us.to", <!-- or "app-from.uk.to" -->
      "github_username": "user",
      "description": "A brief description of the purpose of the subdomain",
      "records": {
        "A": ["1.0.0.1"],
        "AAAA": ["2000:db8::1"],
        "CNAME": ["example.com"],
-       "MX": ["mail1.example.com"],
+       "MX": ["mail1.example.com", "mail2.example.com"],
        "TXT": ["v=spf1 include:_spf.example.com ~all"]
      },
      "proxied": true
    }
-   ```
 4. Create a Pull Request with your new JSON file.
 
 Once your Pull Request is approved, the subdomain will be created and configured.
