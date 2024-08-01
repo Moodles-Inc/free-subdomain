@@ -1,1 +1,10 @@
-
+{
+  "subdomain": "example",
+  "domain": "app-from.us.to",
+  "github_username": "willi-felix",
+  "description": "A brief description of the purpose of the subdomain",
+  "records": {
+    "A": ["1.0.0.1"]
+  },
+  "proxied": true
+}
