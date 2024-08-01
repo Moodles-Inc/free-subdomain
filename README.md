@@ -23,4 +23,4 @@ This repository allows users to request free subdomains under `app-from.us.to` a
      "proxied": true
    }
    ```
-4. Create a Pull Request to willi-felix/free-subdomains. We will review your request and accept or ignore it
+4. Create a Pull Request to this project. We will review your request and accept or ignore it
